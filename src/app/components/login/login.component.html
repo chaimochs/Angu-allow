@@ -1,0 +1,33 @@
+<mat-card class="loginCard">
+    <div class="login-box-header" color="primary">
+        <h1>Welcome to 
+            <span class="welcomeLogo">Alloweb</span>
+        </h1>
+    </div>
+
+    <mat-form-field class="example-full-width">
+
+        <input matInput placeholder="Email" [(ngModel)]="parent.email" text="text">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+
+        <input matInput type="password" placeholder="Password" [(ngModel)]="parent.pw" text="password">
+    </mat-form-field>
+    <p class="err">{{error}}</p>
+
+    <!-- </form> -->
+    <mat-card-actions class="loginActions">
+        <div style="margin: 0 auto; width: 100px; padding-bottom: 20px;">
+         
+            <button mat-raised-button class="login" style="background-color: #42A5F5" (click)="parentLogin()">
+                <mat-icon style="padding-right: 10px;">input</mat-icon> Login
+            </button>
+            <div>
+                <p class="newUser" (click)="openDialog()">Register</p>
+            </div>
+         
+        </div>
+    </mat-card-actions>
+</mat-card>
+

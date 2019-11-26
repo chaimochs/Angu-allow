@@ -1,0 +1,128 @@
+mat-card {
+    border-radius: 8px;
+    padding: 0px;
+}
+
+mat-card.task-card {
+    padding: 16px 30px 30px 30px;
+    background-color: white;
+    /* background-color: rgb(130, 201, 133); */
+    /* max-width: 220px; */
+    max-width: 100%;
+    min-width: 180px;
+    margin: 0px 0px 15px 0px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.taskTitle {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 0px 0px 8px 0px;
+    margin: 0px;
+    /* color: rgb(46, 46, 46); */
+    color: #4CAF50;
+}
+ 
+.taskDescription {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px 0px 8px 0px;
+    color: rgb(46, 46, 46);
+}
+
+.taskParagraph {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.616);
+    padding: 0px;
+    padding-right: 15px;
+    margin: 0px;
+}
+
+.taskTexts {
+    /* border-bottom: 1px solid rgb(68, 68, 68); */
+    margin: -25px -8px 0px -8px;
+    padding-bottom: 10px;
+}
+
+.taskActions {
+    border-top: 1px solid rgb(192, 192, 192);
+}
+
+.task-header-image {
+    background-size: cover;
+    background-color: white;
+    border: 1px solid blue;
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: center;
+}
+
+mat-card-header {
+    margin: 16px 0px;
+}
+
+mat-card-content {
+    margin: 16px 0px;
+    /*-16px*/
+}
+
+/* .example-margin {
+    margin: 10px;
+} */
+
+.completeCheck {
+    padding-right: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.616);
+}
+
+.approveCheck {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.616);
+}
+
+.approveIcon {
+    color: black;
+}
+
+.example-h2 {
+    margin: 10px;
+}
+
+.example-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+/*
+Angular 2 - Material Horizontal card:
+    Use flexbox
+    Set the layout to row on the parent div
+
+display: flex;
+flex-flow: row wrap;
+    */
+
+.example-button-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.toolTip_ {
+    background-color: rgb(190, 190, 190);
+    padding: 5px;
+}

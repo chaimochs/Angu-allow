@@ -1,0 +1,334 @@
+.pageToolbar {
+    padding: 0px 50px;
+    /* background-color: #E9EAED; */
+}
+
+.tasksPageTitle {
+    text-align: left;
+    color: #4CAF50;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 0px;
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.noWishes {
+    background-color: #FEF9DA;
+    border: 1px solid #e6d678;
+    display: block;
+    margin: 0px;
+    padding: 15px;
+}
+
+.noWishes h3 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #9d8a59;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main {
+    flex: 60%;
+    background-color: #E9EAED;
+    /* padding: 20px 50px 20px 50px; */
+}
+
+.tasks {
+    flex: 1;
+}
+
+.noWishes {
+    padding: 30px 30px 30px 30px;
+    max-width: 260px;
+    min-width: 220px;
+    margin: 0px 15px 15px 0px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.myWishList {
+    padding: 30px 15px 15px 15px;
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 200px;
+    /* width: 400px; */
+    /* max-width: */
+}
+
+.childTaskContainer {
+    width: 100%;
+}
+
+.expander-container {
+    flex: 1;
+}
+
+.wish-list-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    /* margin-top: 15px; */
+}
+
+.mat-progress-bar {
+    margin: 15px;
+    width: 300px;
+}
+
+img {
+    width: 35%;
+    height: 150px;
+    float: left;
+    padding: 20px;
+}
+
+/* .wish-card {
+    margin-top: 15px;
+    width: 400px;
+    background-color: #FFFFFF;
+} */
+
+mat-card.wish-card {
+    padding: 30px 30px 30px 30px;
+    /* max-width: 260px; */
+    max-width: 100%;
+    min-width: 180px;
+    /* margin: 0px 15px 15px 0px; */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+img.wishImage {
+    border-radius: 50%;
+    /* vertical-align: middle; */
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    padding: 0px;
+    margin-bottom: 10px;
+    float: none;
+}
+
+.wishTexts {
+    /* border-bottom: 1px solid rgb(68, 68, 68); */
+    /* margin: -30px -12px 0px -12px; */
+    padding-bottom: 10px;
+}
+
+.wishTitle {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 0px 8px 0px;
+    margin: 0px;
+    color: #4CAF50;
+}
+
+/* .taskDescription {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px 0px 8px 0px;
+} */
+
+.wishParagraph {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.616);
+    padding: 0px;
+    padding-right: 15px;
+    margin: 0px;
+}
+
+.wishProgress {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.616);
+    padding: 0px;
+    padding-right: 15px;
+    margin: 0px;
+    width: 90%;
+    z-index: 1000;
+}
+
+.toolTip_ {
+    background-color: rgb(121, 121, 121);
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.mat-card {
+    padding: 0.5%;
+}
+
+/* .go {
+    top: 25px;
+    color: green;
+} */
+
+/* .buyWish {
+    padding-right: 15px;
+    margin-right: 15px;
+} */
+
+.deleteWwish {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+}
+
+.remove-wish:hover {
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+mat-icon {
+    color: white
+}
+
+.buyWish
+{
+ background-color: #42A5F5;
+ color: white
+}
+
+.buyWish:disabled  { 
+    background-color: rgba(189, 187, 187, 0.822) !important
+}
+
+.add-child-text{
+     color: white
+}
+
+
+
+/* #mySearch, .mySearchbtn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 400px;
+} */
+
+
+/* Progress bar  ************************************************************/
+
+progress[value] {
+    /* Get rid of the default appearance */
+    appearance: none;
+    /* This unfortunately leaves a trail of border behind in Firefox and Opera. We can remove that by setting the border to none. */
+    border: none;
+    /* Add dimensions */
+    width: 100%;
+    height: 4px;
+    /* Although firefox doesn't provide any additional pseudo class to style the progress element container, any style applied here works on the container. */
+    background-color: rgb(236, 236, 236);
+    border-radius: 2px;
+    /* box-shadow: 0 2px 3px rgba(0, 0, 0, .5) inset; */
+    /* Of all IE, only IE10 supports progress element that too partially. It only allows to change the background-color of the progress value using the 'color' attribute. */
+    color: royalblue;
+    position: relative;
+    margin: 0.4em 0 1em 0;
+}
+
+/*
+Webkit browsers provide two pseudo classes that can be use to style HTML5 progress element.
+-webkit-progress-bar -> To style the progress element container
+-webkit-progress-value -> To style the progress element value.
+*/
+
+progress[value]::-webkit-progress-bar {
+    background-color: rgb(236, 236, 236);
+    border-radius: 2px;
+    /* box-shadow: 0 2px 3px rgba(0, 0, 0, .5) inset; */
+}
+
+progress[value]::-webkit-progress-value {
+    position: relative;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    border-radius: 2px;
+    /* Let's animate this */
+    animation: animate-stripes 5s linear infinite;
+}
+
+@keyframes animate-stripes {
+    100% {
+        background-position: -100px 0;
+    }
+}
+
+/* Let's spice up things little bit by using pseudo elements. */
+
+progress[value]::-webkit-progress-value:after {
+    /* Only webkit/blink browsers understand pseudo elements on pseudo classes. A rare phenomenon! */
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 7px;
+    right: 7px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+/* Firefox provides a single pseudo class to style the progress element value and not for container. -moz-progress-bar */
+
+progress[value]::-moz-progress-bar {
+    /* Gradient background with Stripes */
+    background-image: -moz-linear-gradient( 135deg, transparent, transparent 33%, rgba(0, 0, 0, .1) 33%, rgba(0, 0, 0, .1) 66%, transparent 66%), -moz-linear-gradient( top, rgba(255, 255, 255, .25), rgba(0, 0, 0, .2)), -moz-linear-gradient( left, #09c, #f44);
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    border-radius: 2px;
+    /* Firefox doesn't support CSS3 keyframe animations on progress element. Hence, we did not include animate-stripes in this code block */
+}
+
+/* Fallback technique styles */
+
+.progress-bar {
+    background-color: rgb(236, 236, 236);
+    border-radius: 2px;
+    /* box-shadow: 0 2px 3px rgba(0, 0, 0, .5) inset; */
+    /* Dimensions should be similar to the parent progress element. */
+    width: 100%;
+    height: 4px;
+}
+
+.progress-bar span {
+    background-color: royalblue;
+    border-radius: 2px;
+    display: block;
+    text-indent: -9999px;
+}
+
+p[data-value] {
+    position: relative;
+}
+
+/* The percentage will automatically fall in place as soon as we make the width fluid. Now making widths fluid. */
+
+p[data-value]:after {
+    content: attr(data-value) '%';
+    position: absolute;
+    right: 0;
+}

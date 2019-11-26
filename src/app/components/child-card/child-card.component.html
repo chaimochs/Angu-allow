@@ -1,0 +1,23 @@
+<mat-card class="child-card" data-id="{{child.user_id}}">
+     <!-- matBadge="4" matBadgeColor="warn" matBadgeOverlap="true" -->
+
+    <div class="child-data" [routerLink]="['../child-view', child.user_id]">
+         <!-- {{_currentParent.last_name}} -->
+
+        <div class="img">
+            <img src="{{child.user_img}}" alt="User Image">
+        </div>
+
+        <div class="child-name">
+            <h2>{{child.first_name}}</h2>
+        </div>
+
+        <div class="child-balance">
+            <h4>${{child.balance}}</h4>
+        </div>
+
+    </div>
+
+</mat-card>
+
+<!-- *ngIf="child.user_img" -->
