@@ -11,9 +11,5 @@
 - Multer
 
 ## Authors
-- Amos Sidelnik
-https://github.com/asidelnik
-- Chaim Ochs, Daniel Salvatori, Hod Yehezkel
+Chaim Ochs, Amos Sidelnik, Daniel Salvatori, Hod Yehezkel
 
-## Final Project
-Elevation Academy - Full-Stack Web Developement [Coding Bootcamp](https://en.elevation.academy/course/coding-bootcamp/)
